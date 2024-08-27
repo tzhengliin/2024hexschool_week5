@@ -1,0 +1,15 @@
+.sidebar{
+  width: 296px;
+  height: 100%;
+  padding: 40px 0;
+}
+
+.nav-item{
+  &.active{
+    border-left: 5px solid lighten($success,30%);
+  }
+  width: 100%;
+  &:hover{
+    border-left: 5px solid lighten($success,30%);
+  }
+}
