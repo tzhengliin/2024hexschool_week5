@@ -1,0 +1,36 @@
+.maincontent{
+    width: calc(100% - 296px);
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-left: auto;
+}
+
+.Assignmentlist{
+    width: 320px;
+    flex-shrink: 0;
+}
+
+.assignmentTitle{
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+.filter-drop{
+    position: absolute;
+    left: -10px;
+    top:-40px;
+}
+
+.detail-text{
+    margin-left: 64px;
+    font-size: 14px;
+}
+.count_comments{
+    font-size: 12px;
+    color:$gray-600;
+    position: absolute;
+    right: 0;
+    top: -25px;
+}
+.card-body{
+    padding-right: 32px;
+}

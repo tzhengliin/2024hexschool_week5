@@ -1,50 +1,65 @@
-<nav class="sidebar navbar navbar-expand-lg bg-body-tertiary vh-100">
-  <div class="flex-column align-item-start px-0 h-100">
-    <a class="navbar-brand mb-5 px-6" href="#">
-      <img src="../assets/images/logo-ANSWER.svg" alt="" />
-    </a>
-    <div class="navbar w-100" id="navbarNav">
-      <ul class="navbar-nav flex-column w-100">
-        <li class="nav-item active py-2">
-          <a class="nav-link px-6" aria-current="page" href="#"
-            ><span class="material-symbols-outlined"> home </span>Home</a
-          >
-        </li>
-        <li class="nav-item py-2">
-          <a class="nav-link px-6" href="#"
-            ><span class="material-symbols-outlined"> insert_chart </span
-            >Dashboard</a
-          >
-        </li>
-        <li class="nav-item py-2">
-          <a class="nav-link px-6" href="#"
-            ><span class="material-symbols-outlined"> forum </span>Question</a
-          >
-        </li>
-        <li class="nav-item py-2">
-          <a class="nav-link px-6" href="#"
-            ><span class="material-symbols-outlined"> assignment </span
-            >Assignment</a
-          >
-        </li>
-        <li class="nav-item py-2">
-          <a class="nav-link px-6" href="#"
-            ><span class="material-symbols-outlined"> video_library </span
-            >Course</a
-          >
-        </li>
-        <li class="nav-item py-2">
-          <a class="nav-link px-6" href="#"
-            ><span class="material-symbols-outlined"> group </span>Admin</a
-          >
-        </li>
-        <li class="nav-item py-2">
-          <a class="nav-link px-6" href="#"
-            ><span class="material-symbols-outlined"> settings </span
-            >Settings</a
-          >
-        </li>
-      </ul>
+<aside
+  class="sidebar navbar navbar-expand-lg bg-body-tertiary vh-100 position-fixed"
+>
+  <div
+    class="d-flex flex-column justify-content-between align-item-start px-0 h-100"
+  >
+    <div>
+      <div class="mb-6 px-6">
+        <a class="navbar-brand" href="#">
+          <img src="../assets/images/logo-ANSWER.svg" alt="" />
+        </a>
+      </div>
+      <div class="navbar w-100" id="navbarNav">
+        <ul class="navbar-nav flex-column w-100">
+          <li class="nav-item py-2">
+            <a class="nav-link px-6 d-flex gap-3" href="#"
+              ><span class="material-symbols-outlined"> insert_chart </span
+              >Dashboard</a
+            >
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link px-6 d-flex gap-3" href="#"
+              ><span class="material-symbols-outlined"> forum </span>Question</a
+            >
+          </li>
+          <li class="nav-item active py-2">
+            <a class="nav-link px-6 d-flex gap-3" href="#"
+              ><span class="material-symbols-outlined"> assignment </span
+              >Assignment</a
+            >
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link px-6 d-flex gap-3" href="#"
+              ><span class="material-symbols-outlined"> video_library </span
+              >Course</a
+            >
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link px-6 d-flex gap-3" href="#"
+              ><span class="material-symbols-outlined"> group </span>Admin</a
+            >
+          </li>
+          <li class="nav-item py-2">
+            <a class="nav-link px-6 d-flex gap-3" href="#"
+              ><span class="material-symbols-outlined"> settings </span
+              >Settings</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="userInfo mt-auto d-flex gap-3">
+      <img
+        src="../assets/images/andychen.jpeg"
+        alt=""
+        class="img-fluid object-fit-cover rounded-circle object-fit-cover ms-6"
+        style="width: 40px; height: 40px"
+      />
+      <div class="d-flex flex-column gap-0">
+        <h6 class="name">Andy Chen</h6>
+        <e-mail class="little-fonts">andy0401@mail.com</e-mail>
+      </div>
     </div>
   </div>
-</nav>
+</aside>
